@@ -1,0 +1,8 @@
+{
+  "name": "optispace-ai",
+  "private": true,
+  "workspaces": [
+    "desktop",
+    "mobile"
+  ]
+}
