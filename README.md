@@ -31,17 +31,17 @@ All processing happens **100% on-device**. No files are ever sent to a server, e
 
 **Mobile Build (iOS/Android)**
 ```bash
-git clone https://github.com/yourusername/optispace-ai.git
+git clone https://github.com/devibe70-ux/optispace-pc-version-.git
 cd optispace-ai/mobile
 # Run your respective framework install commands here
 ```
 
-**Desktop Build (Windows MSIX / macOS)**
+**Desktop Build (Windows MSI / macOS)**
 ```bash
-cd optispace-ai/desktop
+cd desktop
 npm install
 npm run build
-# The MSIX package will be output to the /dist folder
+# The MSI package will be output to the /dist folder
 ```
 
 ## 🛠️ Architecture Overview
