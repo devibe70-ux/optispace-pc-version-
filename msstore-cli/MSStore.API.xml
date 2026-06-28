@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSStore.API</name>
+    </assembly>
+    <members>
+        <member name="T:MSStore.API.Models.SourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Single">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Availability">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.AvailabilityMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.CreateSubmissionResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ErrorDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ErrorResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ErrorScenarioDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ImageSize">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.IsSystemFeatureRequired">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Listing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListingAsset">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListingAssetsResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListingsMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ModuleStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Package">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PackagesMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ProductDeclarations">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Properties">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PropertiesMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PublishingStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseError">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperAvailabilityMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperCreateSubmissionResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperListingAssetsResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperListingsMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperModuleStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperPackagesMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperPropertiesMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperSubmissionStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperUpdateMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ResponseWrapperObject">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Screenshot">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.StoreConfigurations">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.StoreLogo">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.SubmissionStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.SystemRequirementDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.UpdateMetadataRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.UpdateMetadataResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.UpdatePackagesRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ApplicationPackage">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ApplicationSubmissionInfo">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.BaseListing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.CertificationReport">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.CodeAndDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterApplicationCategory">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.NullableDevCenterApplicationCategory">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterCommitResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterError">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterFlight">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterFlightSubmission">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterFlightSubmissionUpdate">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterListing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterSubmission">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DevCenterSubmissionStatusResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.FileStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.NullableFileStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.FlightPackageUpdate">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.GamingOption">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Image">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ImageResource">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PackageDeliveryOptions">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PackageRollout">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PagedResponseDevCenterApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.PagedResponseDevCenterFlight">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Pricing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.StatusDetails">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Trailer">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.TrailerAsset">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DictionaryStringBoolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DictionaryStringDevCenterListing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DictionaryStringTrailerAsset">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DictionaryStringJsonElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DictionaryStringString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListErrorDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListErrorScenarioDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListIsSystemFeatureRequired">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListListing">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListListingAsset">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListPackage">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListResponseError">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListScreenshot">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListStoreLogo">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListSystemRequirementDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListApplicationPackage">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListCertificationReport">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListCodeAndDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListDevCenterApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListDevCenterFlight">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListFlightPackageUpdate">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListGamingOption">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListImage">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListImageResource">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListTrailer">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.ListString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.DateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.NullableDateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Guid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.NullableGuid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.JsonDocument">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.JsonElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Int32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.NullableInt32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Object">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.API.Models.SourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.API.Models.SourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.API.Models.SourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.API.Models.SourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.API.Packaged.StorePackagedAPI.#ctor(MSStore.API.Models.StoreConfigurations,System.String,System.String,System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.Packaged.StorePackagedAPI"/> class.
+            </summary>
+            <param name="configurations">An instance of ClientConfiguration that contains all parameters populated</param>
+            <param name="clientSecret">The client secret of the Microsoft Entra Application that is registered to call Store APIs</param>
+            <param name="devCenterUrl">The DevCenter URL used to make the API calls.</param>
+            <param name="devCenterScope">The Scope from DevCenter that will be used to request the access token.</param>
+            <param name="logger">ILogger for logs.</param>
+        </member>
+        <member name="M:MSStore.API.Packaged.StorePackagedAPI.#ctor(MSStore.API.Models.StoreConfigurations,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.Packaged.StorePackagedAPI"/> class.
+            </summary>
+            <param name="configurations">An instance of ClientConfiguration that contains all parameters populated</param>
+            <param name="certificate">The client certificate of the Microsoft Entra Application that is registered to call Store APIs</param>
+            <param name="devCenterUrl">The DevCenter URL used to make the API calls.</param>
+            <param name="devCenterScope">The Scope from DevCenter that will be used to request the access token.</param>
+            <param name="logger">ILogger for logs.</param>
+        </member>
+        <member name="M:MSStore.API.Packaged.StorePackagedAPI.#ctor(MSStore.API.Models.StoreConfigurations,System.String,System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.Packaged.StorePackagedAPI"/> class.
+            </summary>
+            <param name="configurations">An instance of ClientConfiguration that contains all parameters populated</param>
+            <param name="devCenterUrl">The DevCenter URL used to make the API calls.</param>
+            <param name="devCenterScope">The Scope from DevCenter that will be used to request the access token.</param>
+            <param name="logger">ILogger for logs.</param>
+        </member>
+        <member name="M:MSStore.API.StoreAPI.#ctor(MSStore.API.Models.StoreConfigurations,System.String,System.String,System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.StoreAPI"/> class.
+            </summary>
+            <param name="configurations">An instance of ClientConfiguration that contains all parameters populated</param>
+            <param name="clientSecret">The client secret of the Microsoft Entra Application that is registered to call Store APIs</param>
+            <param name="serviceUrl">The Store API URL used to make the API calls.</param>
+            <param name="scope">The Scope from the Store APIs that will be used to request the access token.</param>
+            <param name="logger">ILogger for logs.</param>
+        </member>
+        <member name="M:MSStore.API.StoreAPI.#ctor(MSStore.API.Models.StoreConfigurations,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.StoreAPI"/> class.
+            </summary>
+            <param name="configurations">An instance of ClientConfiguration that contains all parameters populated</param>
+            <param name="certificate">The client certificate of the Microsoft Entra Application that is registered to call Store APIs</param>
+            <param name="serviceUrl">The Store API URL used to make the API calls.</param>
+            <param name="scope">The Scope from the Store APIs that will be used to request the access token.</param>
+            <param name="logger">ILogger for logs.</param>
+        </member>
+        <member name="T:MSStore.API.SubmissionClient">
+            <summary>
+            This class is a proxy that abstracts the functionality of the API service
+            </summary>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.#ctor(Microsoft.Identity.Client.AuthenticationResult,System.String,System.Net.Http.HttpClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSStore.API.SubmissionClient" /> class.
+            </summary>
+            <param name="accessToken">
+            The access token. This is JWT a token obtained from Azure Active Directory allowing the caller to invoke the API
+            on behalf of a user
+            </param>
+            <param name="serviceUrl">The service URL.</param>
+            <param name="httpClient">An HttpClient object to be used in the internal requests. Can be used for mocking.</param>
+        </member>
+        <member name="P:MSStore.API.SubmissionClient.DefaultHeaders">
+            <summary>
+            Gets or Sets the default headers.
+            </summary>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting
+            unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.GetClientCredentialAccessTokenAsync(System.String,System.String,System.String,System.String,Microsoft.Extensions.Logging.ILogger,System.Threading.CancellationToken)">
+            <summary>
+            Gets the authorization token for the provided client id, client secret, and the scope.
+            This token is usually valid for 1 hour, so if your submission takes longer than that to complete,
+            make sure to get a new one periodically.
+            </summary>
+            <param name="tenantId">The tenantId used to get the access token, specific to your
+            Azure Active Directory app. Example: "d454d300-128e-2d81-334a-27d9b2baf002"</param>
+            <param name="clientId">Client Id of your Azure Active Directory app. Example: "ba3c223b-03ab-4a44-aa32-38aa10c27e32"</param>
+            <param name="clientSecret">Client secret of your Azure Active Directory app</param>
+            <param name="scope">Scope. If not provided, default one is used for the production API endpoint.</param>
+            <param name="logger">ILogger for logs.</param>
+            <param name="ct">Cancelation token.</param>
+            <returns>Autorization token. Prepend it with "Bearer: " and pass it in the request header as the
+            value for "Authorization: " header.</returns>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.GetClientCredentialAccessTokenAsync(System.String,System.String,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,Microsoft.Extensions.Logging.ILogger,System.Threading.CancellationToken)">
+            <summary>
+            Gets the authorization token for the provided client id, client secret, and the scope.
+            This token is usually valid for 1 hour, so if your submission takes longer than that to complete,
+            make sure to get a new one periodically.
+            </summary>
+            <param name="tenantId">The tenantId used to get the access token, specific to your
+            Azure Active Directory app. Example: "d454d300-128e-2d81-334a-27d9b2baf002"</param>
+            <param name="clientId">Client Id of your Azure Active Directory app. Example: "ba3c223b-03ab-4a44-aa32-38aa10c27e32"</param>
+            <param name="certificate">Client certificate of your Azure Active Directory app</param>
+            <param name="scope">Scope. If not provided, default one is used for the production API endpoint.</param>
+            <param name="logger">ILogger for logs.</param>
+            <param name="ct">Cancelation token.</param>
+            <returns>Autorization token. Prepend it with "Bearer: " and pass it in the request header as the
+            value for "Authorization: " header.</returns>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.InvokeAsync``1(System.Net.Http.HttpMethod,System.String,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Threading.CancellationToken)">
+            <summary>
+            Invokes the specified HTTP method.
+            </summary>
+            <typeparam name="T">The return type expected by the HTTP return.</typeparam>
+            <param name="httpMethod">The HTTP method.</param>
+            <param name="relativeUrl">The relative URL.</param>
+            <param name="requestContent">Content of the request.</param>
+            <param name="jsonTypeInfo">The type information for JSON serialization.</param>
+            <param name="ct">Cancelation token.</param>
+            <returns>instance of the type T</returns>
+        </member>
+        <member name="M:MSStore.API.SubmissionClient.SetRequest(System.Net.Http.HttpRequestMessage,System.Object)">
+            <summary>
+            Sets the request.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="requestContent">Content of the request.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>msstore</name>
+    </assembly>
+    <members>
+        <member name="T:MSStore.CLI.Services.ConfigurationsSourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of the CLI Configurations.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.Configurations">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.Guid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.NullableGuid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.Int32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.NullableInt32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.ConfigurationsSourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of the PWA Application Informations.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.ElectronManifest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.ElectronManifestBuild">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.ElectronManifestBuildAppX">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.ElectronManifestBuildDirectories">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.ElectronManifestBuildWindows">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.DictionaryStringJsonElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.JsonElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.JsonNode">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.ElectronManager.ElectronManifestSourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.EnvironmentInfo.GetEnvironmentInfo">
+            <summary>
+            Gets the cached environment information. This method computes the environment data only once.
+            </summary>
+            <returns>A dictionary containing environment information with "Source" key indicating the detected CI/CD environment.</returns>
+        </member>
+        <member name="M:MSStore.CLI.Services.EnvironmentInfo.ComputeEnvironmentInfo">
+            <summary>
+            Computes the environment information by detecting CI/CD environment variables.
+            This method is called only once when the lazy value is first accessed.
+            </summary>
+            <returns>A dictionary containing the computed environment information.</returns>
+        </member>
+        <member name="T:MSStore.CLI.Services.Graph.GraphSourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of Microsoft Graph calls.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.AppPasswordRegistrationRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.AppRegistrationRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.AppUpdateRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.AzureApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.CreateAppSecretResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.CreatePrincipalRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.CreatePrincipalResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.ListResponseAzureApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.ListAzureApplication">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.ListString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.DateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.Guid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.NullableGuid">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.Graph.GraphSourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of Microsoft Partner Center calls.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.AccountEnrollment">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.AccountEnrollments">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.DictionaryStringString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.ListAccountEnrollment">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.Int32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PartnerCenter.PartnerCenterGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of the PWA Application Informations.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.PWAAppInfo">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.Uri">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWAAppInfoSourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of PWA Builder API calls.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.ClassicPackage">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.GenerateZipRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.Icon">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.Publisher">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.ScreenShot">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.WebManifestFindContent">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.WebManifestFindResponse">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.WebManifestJson">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.ListIcon">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.ListScreenShot">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.JsonDocument">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.JsonElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.PWABuilder.PWASourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext">
+            <summary>
+            Source Generator Configuration for JSON Serialization/Deserialization of Telemetry configurations.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.NullableBoolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.TelemetryConfigurations">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.TelemetryConnectionStringProvider">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.DateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.NullableDateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MSStore.CLI.Services.Telemetry.TelemetrySourceGenerationContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

@@ -1,22 +1,22 @@
 #[tauri::command]
-async fn scan_directory(dir: String) -> Result<Vec<core::scanner::FileInfo>, String> {
-    core::scanner::scan_directory(std::path::Path::new(&dir))
+async fn scan_directory(dir: String) -> Result<Vec<optispace_core::scanner::FileInfo>, String> {
+    optispace_core::scanner::scan_directory(std::path::Path::new(&dir))
         .map_err(|e| e.to_string())
 }
 
 #[tauri::command]
-async fn clean_temp_folders() -> Result<core::cleaner::CleanResult, String> {
-    Ok(core::cleaner::clean_temp_folders())
+async fn clean_temp_folders() -> Result<optispace_core::cleaner::CleanResult, String> {
+    Ok(optispace_core::cleaner::clean_temp_folders())
 }
 
 #[tauri::command]
-async fn find_similar_images(dir: String, tolerance: u32) -> Result<Vec<core::fuzzy_matcher::FuzzyMatchGroup>, String> {
-    core::fuzzy_matcher::find_similar_images(std::path::Path::new(&dir), tolerance)
+async fn find_similar_images(dir: String, tolerance: u32) -> Result<Vec<optispace_core::fuzzy_matcher::FuzzyMatchGroup>, String> {
+    optispace_core::fuzzy_matcher::find_similar_images(std::path::Path::new(&dir), tolerance)
 }
 
 #[tauri::command]
-async fn compress_video(input_path: String, output_dir: String) -> Result<core::video_compressor::CompressionResult, String> {
-    core::video_compressor::compress_video(
+async fn compress_video(input_path: String, output_dir: String) -> Result<optispace_core::video_compressor::CompressionResult, String> {
+    optispace_core::video_compressor::compress_video(
         std::path::Path::new(&input_path), 
         std::path::Path::new(&output_dir)
     )

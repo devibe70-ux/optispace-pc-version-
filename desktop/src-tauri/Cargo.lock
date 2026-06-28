@@ -79,8 +79,8 @@ checksum = "2a4385e2e34eb35d6b3efe798b9eb88096925d87726c0798709bf56d9ed84af3"
 name = "app"
 version = "0.1.0"
 dependencies = [
- "core",
  "log",
+ "optispace_core",
  "serde",
  "serde_json",
  "tauri",
@@ -474,18 +474,6 @@ checksum = "4ddef33a339a91ea89fb53151bd0a4689cfce27055c291dfa69945475d22c747"
 dependencies = [
  "time",
  "version_check",
-]
-
-[[package]]
-name = "core"
-version = "0.1.0"
-dependencies = [
- "hex",
- "image",
- "image_hasher",
- "serde",
- "sha2",
- "walkdir",
 ]
 
 [[package]]
@@ -2333,6 +2321,19 @@ name = "option-ext"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
+
+[[package]]
+name = "optispace_core"
+version = "0.1.0"
+dependencies = [
+ "hex",
+ "image",
+ "image_hasher",
+ "serde",
+ "serde_json",
+ "sha2",
+ "walkdir",
+]
 
 [[package]]
 name = "pango"

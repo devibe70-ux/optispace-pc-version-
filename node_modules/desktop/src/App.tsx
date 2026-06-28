@@ -256,9 +256,9 @@ function App() {
             </div>
             <div className="card-body">
               <div className="pricing-tiers">
-                <div className="tier"><h3>3 Months</h3><p>$2.99</p></div>
-                <div className="tier"><h3>1 Year</h3><p>$9.99</p></div>
-                <div className="tier"><h3>Lifetime</h3><p>$19.99</p></div>
+                <div className="tier"><h3>3 Months</h3><p>₹299</p></div>
+                <div className="tier"><h3>1 Year</h3><p>₹999</p></div>
+                <div className="tier"><h3>Lifetime</h3><p>₹1999</p></div>
               </div>
               <div className="input-group">
                 <input 
